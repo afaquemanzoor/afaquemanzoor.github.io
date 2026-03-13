@@ -30,7 +30,7 @@ author:
   location         : "Earth"
   employer         : "Washington University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "afaque.manzoor@ieee.org" 
 
   # Academic websites
   academia         : # URL
@@ -40,9 +40,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-0352-9319"
   semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Afaque-Manzoor?ev=hdr_xprf"
   scopus           : # URL
   zotero           : # URL
 
