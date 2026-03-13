@@ -23,7 +23,7 @@ repository               : "afaquemanzoor/afaquemanzoor.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.JPEG"
+  avatar           : "profile.jpg"
   name             : "Afaque Manzoor"
   pronouns         : # example: "He/Him"  
   bio              : "Short biography for the left-hand sidebar"
