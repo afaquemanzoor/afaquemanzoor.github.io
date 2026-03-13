@@ -1,18 +1,9 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "Senior Lecturer in Mechanical Engineering at Washington University in St. Louis working on soft robotics, flexible sensors, and wearable electronics."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Afaque Manzoor:
+  name: Afaque Manzoor
+  avatar: profile.png
+  bio: Senior Lecturer in Mechanical Engineering at Washington University in St Louis working on soft robotics, flexible sensors, and wearable electronics.
+  location: St Louis, Missouri, USA
+  email: afaque.manzoor@ieee.org
+  googlescholar: https://scholar.google.com/citations?hl=en&user=6_jyXuMAAAAJ
+  github: https://github.com/afaquemanzoor
+  linkedin: https://www.linkedin.com/in/afaquemanzoor
