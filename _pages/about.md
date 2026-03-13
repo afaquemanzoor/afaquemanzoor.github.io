@@ -1,8 +1,9 @@
 ---
 permalink: /
 title: "Afaque Manzoor | Soft Robotics and Flexible Sensors"
+author: "Afaque Manzoor"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
