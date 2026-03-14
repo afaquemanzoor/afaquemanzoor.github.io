@@ -29,6 +29,12 @@
           <i class="fas fa-university" aria-hidden="true"></i> <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}
         </p>
 
+        {% if post.excerpt %}
+          <div style="font-size: 0.9em; color: #444; margin-bottom: 15px; line-height: 1.5;">
+            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+          </div>
+        {% endif %}
+
         <div style="display: flex; gap: 10px;">
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}" target="_blank" style="padding: 4px 12px; background: #2185d0; color: white; border-radius: 4px; text-decoration: none; font-size: 0.85em; font-weight: bold;">
