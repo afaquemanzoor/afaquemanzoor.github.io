@@ -1,10 +1,12 @@
 Afaque Manzoor:
-  name: Afaque Manzoor
-  avatar: profile.jpg
-  bio: Senior Lecturer in Mechanical Engineering working on soft robotics, flexible sensors, and wearable electronics.
-  employer: Washington University in St Louis
-  location: St Louis, Missouri, USA
-  email: afaque.manzoor@ieee.org
-  googlescholar: https://scholar.google.com/citations?hl=en&user=6_jyXuMAAAAJ
-  github: afaquemanzoor
-  linkedin: afaquemanzoor
+  name: "Afaque Manzoor"
+  avatar: "profile.jpg"
+  bio: "Senior Lecturer in Mechanical Engineering working on soft robotics, flexible sensors, and wearable electronics."
+  location: "St. Louis, Missouri, USA"
+  employer: "Washington University in St. Louis"
+  email: "afaque.manzoor@ieee.org"
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=6_jyXuMAAAAJ"
+  github: "afaquemanzoor"
+  linkedin: "afaquemanzoor"
+  orcid: "0000-0002-0352-9319"
+  researchgate: "Afaque-Manzoor"
