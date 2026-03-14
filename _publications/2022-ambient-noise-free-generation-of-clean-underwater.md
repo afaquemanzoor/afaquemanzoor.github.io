@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2022-ambient-noise-free-generation-of-clean-underwater
 date: 2022-01-01
 venue: "Computers and Electrical Engineering"
-authors: "Ashraf, Hina, Shah, Babar, Soomro, Afaque Manzoor, Safdar, Qurat-ul-Ain, Halim, Zahid, Shah, Said Khalid"
-paperurl: ""
+authors: "Hina Ashraf, Babar Shah, Afaque Manzoor Soomro, Qurat-ul-Ain Safdar, Zahid Halim, Said Khalid Shah"
+paperurl: "https://www.sciencedirect.com/science/article/pii/S0045790622002452"
 teaser: "/images/papers/2022-ambient-noise-free-generation-of-clean-underwater.png"
-excerpt: "This research was published in Computers and Electrical Engineering in 2022. (Summary pending update)."
+excerpt: "This study proposes AN-GAN, a specialized Generative Adversarial Network for denoising underwater ship engine acoustics. By effectively removing background ambient noise from hydrophone recordings, the framework significantly outperforms conventional statistical methods, achieving up to 247% improvement over traditional wavelet and EMD techniques."
 ---
