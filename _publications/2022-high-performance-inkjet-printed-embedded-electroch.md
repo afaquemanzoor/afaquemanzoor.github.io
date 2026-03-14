@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2022-high-performance-inkjet-printed-embedded-electroch
 date: 2022-01-01
 venue: "Lab on a Chip"
-authors: "Khalid, Muhammad Asad Ullah, Kim, Kyung Hwan, Salih, Abdul Rahim Chethikkattuveli, Hyun, Kinam, Park, Sung Hyuk, Kang, Bohye, Soomro, Afaque Manzoor, Ali, Muhsin, Jun, Yesl, Huh, Dongeun, others"
-paperurl: ""
+authors: "Muhammad Asad Ullah Khalid, Kyung Hwan Kim, Abdul Rahim Chethikkattuveli Salih, Kinam Hyun, Sung Hyuk Park, Bohye Kang, Afaque Manzoor Soomro, Muhsin Ali, Yesl Jun, Dongeun Huh, Kyung Hyun Choi"
+paperurl: "https://pubs.rsc.org/en/content/articlelanding/2022/lc/d1lc01079d"
 teaser: "/images/papers/2022-high-performance-inkjet-printed-embedded-electroch.png"
-excerpt: "This research was published in Lab on a Chip in 2022. (Summary pending update)."
+excerpt: "This work features inkjet-printed electrochemical sensors embedded in a gut bilayer chip for real-time hypoxia monitoring. The platform enables 6-day continuous tracking of dissolved oxygen and ROS levels, integrated with a TEEI sensor to quantify tight junction dynamics, providing a robust tool for toxicity testing and disease modeling."
 ---
