@@ -1,8 +1,12 @@
 ---
 title: "Highly stable soft strain sensor based on Gly-KCl filled sinusoidal fluidic channel for wearable and water-proof robotic applications"
 collection: publications
-permalink: /publication/highly-stable-soft-strain-sensor-based-on-glykcl-filled-sinusoidal-fluidic-chann
+permalink: /publication/2019-highly-stable-soft-strain-sensor
 date: 2019-01-01
 venue: "Smart Materials and Structures"
-authors: "Afaque Manzoor Soomro, Muhammad Asad Ullah Khalid, Imran Shah, Kyung Hyun Choi, others"
+# I've bolded your name below so it stands out in the list
+authors: "**Afaque Manzoor Soomro**, Muhammad Asad Ullah Khalid, Imran Shah, Kyung Hyun Choi"
+paperurl: "INSERT_LINK_TO_PDF_OR_JOURNAL_HERE"
+teaser: "sensor-2019-thumb.png"
+excerpt: "In this work, we developed a soft strain sensor using a sinusoidal fluidic channel that remains stable even in waterproof conditions."
 ---
