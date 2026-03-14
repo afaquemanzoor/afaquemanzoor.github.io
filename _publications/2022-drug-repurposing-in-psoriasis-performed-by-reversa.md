@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2022-drug-repurposing-in-psoriasis-performed-by-reversa
 date: 2022-01-01
 venue: "Computational and Structural Biotechnology Journal"
-authors: "Ahmed, Faheem, Ho, Son Gi, Samantasinghar, Anupama, Memon, Fida Hussain, Rahim, Chethikkattuveli Salih Abdul, Soomro, Afaque Manzoor, Sunildutt, Naina, Kim, Kyung Hwan, Choi, Kyung Hyun, others"
-paperurl: ""
+authors: "Faheem Ahmed, Son Gi Ho, Anupama Samantasinghar, Fida Hussain Memon, Abdul Rahim Chethikkattuveli Salih, Afaque Manzoor Soomro, Naina Sunildutt, Kyung Hwan Kim, Kyung Hyun Choi"
+paperurl: "https://pubmed.ncbi.nlm.nih.gov/36420161/"
 teaser: "/images/papers/2022-drug-repurposing-in-psoriasis-performed-by-reversa.png"
-excerpt: "This research was published in Computational and Structural Biotechnology Journal in 2022. (Summary pending update)."
+excerpt: "This study utilizes a computational drug repurposing framework to identify anti-psoriasis treatments by reversing disease-associated gene expression signatures. By analyzing GEO datasets and CMap perturbagens, the research successfully validated dozens of potential drug candidates through literature and clinical data, offering a rapid approach for therapeutic discovery."
 ---
