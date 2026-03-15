@@ -1,7 +1,6 @@
 {% include base_path %}
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
-
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -11,30 +10,28 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* Target the container to hide the overflow zoom */
+  /* This targets the image container */
   .archive__item-teaser {
     overflow: hidden !important;
-    border-radius: 8px !important;
+    border-radius: 12px !important; /* Noticeable change to verify it's working */
     display: block !important;
-    border: none !important; /* Removes that thin grey border if you want a cleaner look */
   }
 
-  /* Target the image directly */
+  /* This targets the image itself */
   .archive__item-teaser img {
     transition: transform 0.4s ease-in-out !important;
-    transform: scale(1) !important;
-    width: 100% !important;
-    height: auto !important;
     display: block !important;
+    width: 100% !important;
   }
 
-  /* Trigger zoom when the user hovers over the publication block */
-  .archive__item:hover .archive__item-teaser img {
+  /* When the publication is hovered, zoom the image */
+  .archive__item:hover img {
     transform: scale(1.15) !important;
   }
 
-  /* Add a shadow effect to make the 'card' pop */
-  .archive__item:hover .archive__item-teaser {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+  /* This adds a shadow to the whole publication block on hover */
+  .archive__item:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
   }
 </style>
