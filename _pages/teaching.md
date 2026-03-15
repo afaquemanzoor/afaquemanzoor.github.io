@@ -5,6 +5,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
+## Teaching Philosophy
+Dr. Manzoor believes that mechatronics and robotics are defined by the **synergistic collaboration** between mechanical engineering, electronics, and intelligent control. His teaching approach focuses on **experiential learning**, where students bridge the gap between theoretical modeling and hands-on systems integration. He strives to create an inclusive environment where students from diverse backgrounds leverage their unique perspectives to solve complex engineering challenges.
+
+---
+
 ## Academic Teaching Experience
 
 
