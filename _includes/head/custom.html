@@ -10,30 +10,31 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* 1. Target the image container to clip the zoom */
-  .archive__item-teaser {
+  /* FORCED OVERRIDE - Using 'article' to ensure we beat the theme's CSS */
+  
+  article .archive__item-teaser {
     overflow: hidden !important;
-    border-radius: 12px !important; 
+    border-radius: 20px !important; /* Made even more round to 'see' the update */
     display: block !important;
-    position: relative !important;
-    transform: translateZ(0); /* Fixes Safari flicker */
+    border: 2px solid #494E52 !important; /* Darker border to prove it loaded */
+    transition: all 0.4s ease !important;
   }
 
-  /* 2. Target the image inside the teaser */
-  .archive__item-teaser img {
-    transition: transform 0.4s ease-in-out !important;
+  article .archive__item-teaser img {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
     display: block !important;
     width: 100% !important;
-    height: auto !important;
+    transform: scale(1) !important;
   }
 
-  /* 3. TRIGGER: When hovering ANY part of the publication entry, zoom the image */
-  .archive__item:hover .archive__item-teaser img {
-    transform: scale(1.18) !important;
+  /* Trigger on the link or the article hover */
+  article.archive__item:hover .archive__item-teaser img,
+  article.archive__item:hover img {
+    transform: scale(1.3) !important; /* High zoom for visibility */
   }
 
-  /* 4. Visual Feedback: Lift the whole card slightly */
-  .archive__item:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12) !important;
+  article.archive__item:hover .archive__item-teaser {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3) !important;
+    transform: translateY(-8px) !important;
   }
 </style>
