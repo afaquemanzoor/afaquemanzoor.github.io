@@ -16,7 +16,6 @@ author_profile: true
     position: relative;
     margin-bottom: 50px;
   }
-  /* The dot on the timeline */
   .timeline-item::before {
     content: "";
     position: absolute;
@@ -43,7 +42,6 @@ author_profile: true
     margin-bottom: 20px;
     font-size: 1.1rem;
   }
-  /* Course Styling inside Timeline */
   .course-card {
     background: #f8f9fa;
     border-radius: 8px;
@@ -67,7 +65,7 @@ author_profile: true
 </style>
 
 ## Teaching Philosophy
-Dr. Manzoor believes that mechatronics and robotics are defined by the **synergistic collaboration** between mechanical engineering, electronics, and intelligent control. His approach focuses on **experiential learning**, bridging the gap between theoretical modeling and hands-on systems integration.
+Based on the principle that mechatronics is the synergistic meeting point of mechanical engineering, electronics, and intelligent control, Dr. Manzoor’s teaching philosophy centers on **experiential learning**. He emphasizes the transition from theoretical modeling to hands-on systems integration, encouraging students to bridge the gap between abstract concepts and robust, physical engineering products.
 
 ---
 
@@ -78,18 +76,23 @@ Dr. Manzoor believes that mechatronics and robotics are defined by the **synergi
     <span class="role-title">Senior Lecturer – McKelvey School of Engineering | 2024 – Present</span>
     
     <div class="course-card">
-      <span class="course-code">MEMS 5206 – Modern Robotics</span>
-      <div class="course-desc">Graduate-level course covering kinematics, dynamics, and motion planning. Experiments performed using <b>CoppeliaSim</b>.</div>
+      <span class="course-code">MEMS 5206 – Modern Robotics: Mechanics, Planning and Control</span>
+      <div class="course-desc">Graduate-level course covering kinematics, dynamics, motion planning, and trajectory generation. Tools: <b>CoppeliaSim</b>.</div>
     </div>
 
     <div class="course-card">
       <span class="course-code">MEMS 2507 – ROS2 Based Robot Design</span>
-      <div class="course-desc">Project-based course focused on <b>ROS2</b>, SLAM, and autonomous navigation using Gazebo and RViz.</div>
+      <div class="course-desc">Project-based course focused on perception, control, SLAM, and autonomous navigation. Tools: <b>ROS2, Gazebo, RViz</b>.</div>
     </div>
 
     <div class="course-card">
       <span class="course-code">MEMS 2000 – Mechatronics</span>
-      <div class="course-desc">Undergraduate course integrating sensors, actuators, and embedded systems for hardware/software synergy.</div>
+      <div class="course-desc">Integration of sensors, actuators, and embedded systems for hardware/software synergy.</div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-code">MEMS 4301 – Modeling, Simulation and Control</span>
+      <div class="course-desc">Dynamic system modeling, simulation techniques, and multi-loop control system design.</div>
     </div>
   </div>
 
@@ -98,13 +101,43 @@ Dr. Manzoor believes that mechatronics and robotics are defined by the **synergi
     <span class="role-title">Assistant Professor – Electrical Engineering | 2021 – 2024</span>
     
     <div class="course-card">
-      <span class="course-code">Robotics & Swarm Intelligence</span>
-      <div class="course-desc">Developed courses in Swarm Robotics and Bio-inspired Robotics using <b>Webots</b> and <b>ARGoS</b>.</div>
+      <span class="course-code">TEL-413 – Robotics</span>
+      <div class="course-desc">Undergraduate robotics covering ROS-based projects and scenario-based system design.</div>
     </div>
+
+    <div class="course-card">
+      <span class="course-code">EE-572 – Swarm Robotics & Bio-inspired Robotics</span>
+      <div class="course-desc">Exploring collective behavior and bio-inspired design. Tools: <b>Webots, ARGoS, Unity3D</b>.</div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-code">EE-567 – Biomedical Robotics</span>
+      <div class="course-desc">Robotics applications in healthcare, surgical systems, and rehabilitation.</div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-code">CSC-101 – Internet of Things (IoT)</span>
+      <div class="course-desc">IoT architectures using <b>Arduino, ESP32</b>, and various cloud platforms.</div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-code">ESE-312 – Signals and Systems</span>
+      <div class="course-desc">Signal analysis and system modeling using <b>MATLAB</b> and <b>LabVIEW</b>.</div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="institution-name">Jeju National University, South Korea</div>
+    <span class="role-title">Instructor / Researcher | 2016 – 2021</span>
     
     <div class="course-card">
-      <span class="course-code">Biomedical Robotics</span>
-      <div class="course-desc">Applications in healthcare, including surgical robotics and rehabilitation systems.</div>
+      <span class="course-code">Advanced Printed Electronics</span>
+      <div class="course-desc">Graduate course on printed electronic materials and flexible electronics fabrication.</div>
+    </div>
+
+    <div class="course-card">
+      <span class="course-code">Mechatronics I & II</span>
+      <div class="course-desc">Foundational courses in electromechanical systems, sensors, and robotic control.</div>
     </div>
   </div>
 
@@ -113,4 +146,4 @@ Dr. Manzoor believes that mechatronics and robotics are defined by the **synergi
 ---
 
 ## Teaching Interests
-**Robotics** | **Soft Robotics** | **Bio-inspired Robotics** | **Mechatronics** | **Control Systems** | **Flexible Electronics**
+**Robotics** | **Soft Robotics** | **Bio-inspired Robotics** | **Mechatronics** | **Control Systems** | **Embedded Systems** | **Flexible Electronics**
