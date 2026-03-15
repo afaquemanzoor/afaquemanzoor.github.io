@@ -65,7 +65,11 @@ author_profile: true
 </style>
 
 ## Teaching Philosophy
-Based on the principle that mechatronics is the synergistic meeting point of mechanical engineering, electronics, and intelligent control, Dr. Manzoor’s teaching philosophy centers on **experiential learning**. He emphasizes the transition from theoretical modeling to hands-on systems integration, encouraging students to bridge the gap between abstract concepts and robust, physical engineering products.
+Dr. Manzoor’s lifelong mission is to equip students with robotics, sensors, and mechatronics education through **experiential learning**. He is committed to creating an active learning environment that requires continuous engagement, ensuring students gain lasting skills regardless of their background or identity. To support this, Dr. Manzoor develops well-organized curricula with clear expectations and rewards.
+
+Recognizing that students possess various learning styles and preferences, Dr. Manzoor incorporates diverse assessment methods, including reading assignments, mini-quizzes, problem sets, and open-ended projects addressing complex engineering problems. Furthermore, he maintains an active learning mindset by regularly updating his curriculum with the latest research and industrial trends. Dr. Manzoor proactively reflects on his performance through student feedback and implements modern pedagogical techniques, such as **flipped classrooms**, to enhance the educational experience.
+
+-
 
 ---
 
