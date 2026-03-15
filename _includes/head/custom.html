@@ -4,36 +4,35 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* 1. Target the image container to clip the zoom */
-  .archive__item-teaser {
+  /* 1. Find the image area in publications and clip the zoom */
+  .archive__item-teaser, 
+  .list__item .archive__item-teaser {
     overflow: hidden !important;
-    border-radius: 12px !important; 
+    border-radius: 8px !important;
     display: block !important;
-    position: relative !important;
-    transform: translateZ(0); /* Fixes Safari flicker */
+    border: 1px solid #eee !important;
   }
 
-  /* 2. Target the image inside the teaser */
-  .archive__item-teaser img {
+  /* 2. Make the image itself ready to move */
+  .archive__item-teaser img,
+  .list__item img {
     transition: transform 0.4s ease-in-out !important;
     display: block !important;
     width: 100% !important;
-    height: auto !important;
   }
 
-  /* 3. TRIGGER: When hovering ANY part of the publication entry, zoom the image */
-  .archive__item:hover .archive__item-teaser img {
+  /* 3. THE TRIGGER: Zoom when hovering the row */
+  .archive__item:hover img,
+  .list__item:hover img {
     transform: scale(1.5) !important;
   }
 
-  /* 4. Visual Feedback: Lift the whole card slightly */
-  .archive__item:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12) !important;
+  /* 4. Optional: Highlight the row slightly */
+  .archive__item:hover,
+  .list__item:hover {
+    background-color: rgba(0,0,0,0.01) !important;
   }
 </style>
