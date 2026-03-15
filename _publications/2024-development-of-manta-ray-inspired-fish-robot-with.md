@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2024-development-of-manta-ray-inspired-fish-robot-with
 date: 2024-01-01
 venue: "Am. J. Eng. Technol."
-authors: "Aali, TR, Adnan, H, Soomro, AM"
-paperurl: ""
+authors: "TR Aali, H Adnan, Afaque Manzoor Soomro"
+paperurl: "https://www.theamericanjournals.com/index.php/tajet/article/view/5712/5285"
 teaser: "/images/papers/2024-development-of-manta-ray-inspired-fish-robot-with.png"
-excerpt: "This research was published in Am. J. Eng. Technol. in 2024. (Summary pending update)."
+excerpt: "This research presents a bio-inspired soft robotic fish modeled after the manta ray for non-invasive underwater environmental monitoring. Utilizing pneumatic actuation and Ecoflex-0030 pectoral fins, the robot achieves agile, manta-like propulsion validated through ANSYS simulations, offering a more adaptable and eco-friendly alternative to traditional hard-shelled AUVs."
 ---
