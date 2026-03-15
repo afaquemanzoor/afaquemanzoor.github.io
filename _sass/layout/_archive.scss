@@ -50,7 +50,6 @@
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -66,24 +65,32 @@
   }
 }
 
+/* MODIFIED: Consolidated Teaser with Zoom Logic */
 .archive__item-teaser {
-  border-radius: $border-radius;
-  overflow: hidden;
+  border-radius: 8px; /* Smoother corners */
+  overflow: hidden;   /* Essential: clips the zooming image */
+  
   img {
     width: 100%;
+    transition: transform 0.4s ease-in-out; /* Smooth zoom transition */
+    display: block;
   }
 }
 
+/* MODIFIED: Hover states for the entire item */
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: 0 4px 15px rgba(#000, 0.2); /* Enhanced shadow on hover */
+    
+    img {
+      transform: scale(1.12); /* Professional zoom level */
+    }
   }
 
   .archive__item-title {
     text-decoration: underline;
   }
 }
-
 
 /*
    List view
@@ -106,7 +113,6 @@
     margin: 0 0 4px;
   }
 }
-
 
 /*
    Grid view
@@ -136,8 +142,8 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0; 
+    margin-right: 0; 
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -150,7 +156,6 @@
     }
   }
 }
-
 
 /*
    Features
@@ -242,17 +247,4 @@
       }
     }
   }
-}
-/* Interactive Zoom for Publication Images */
-.archive__item-teaser {
-  overflow: hidden; 
-  border-radius: 8px; /* Slightly smoother corners */
-}
-
-.archive__item-teaser img {
-  transition: transform 0.4s ease; /* Silky smooth transition */
-}
-
-.archive__item:hover .archive__item-teaser img {
-  transform: scale(1.15); /* Noticeable but professional zoom */
 }
