@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* --- 1. PUBLICATION ZOOM (Safely kept as-is) --- */
+  /* --- 1. PUBLICATION ZOOM (Kept exactly as worked before) --- */
   article.archive__item .archive__item-teaser {
     overflow: hidden !important;
     border-radius: 12px !important;
@@ -22,16 +22,14 @@
     transform: translateY(-5px) !important;
   }
 
-  /* --- 2. HOMEPAGE IMPROVEMENTS (Automatic) --- */
+  /* --- 2. HOMEPAGE IMPROVEMENTS (Fixed for Main Content Only) --- */
   
-  /* Make the main bio text more readable and professional */
   .page__content {
     line-height: 1.8 !important;
     font-size: 1.1rem !important;
     color: #333 !important;
   }
 
-  /* Add a stylish blue bar to your H2 headings (like "Research Interests") */
   .page__content h2 {
     color: #2c3e50 !important;
     border-left: 6px solid #3498db !important;
@@ -39,27 +37,26 @@
     margin-top: 40px !important;
   }
 
-  /* Automatically turn your bullet points into "Interactive Cards" */
+  /* CRITICAL FIX: Only apply cards to lists INSIDE the page content */
   .page__content ul li {
     list-style: none !important;
     background: #f8f9fa !important;
     margin-bottom: 12px !important;
-    padding: 15px 20px !important;
+    padding: 12px 18px !important;
     border-radius: 10px !important;
     border: 1px solid #e9ecef !important;
     transition: 0.3s all ease !important;
-    position: relative;
+    display: block !important; /* Forces it to stay a card */
   }
 
-  /* When you hover over a research interest, it slides and glows */
   .page__content ul li:hover {
     background: #ffffff !important;
     border-color: #3498db !important;
     transform: translateX(10px) !important;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.05) !important;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.05) !important;
   }
 
-  /* Make bold words a professional blue to highlight your key skills */
+  /* Highlights bold words in blue */
   .page__content strong {
     color: #2980b9 !important;
   }
