@@ -10,28 +10,43 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <style>
-  /* This targets the image container */
+  /* 1. The Container: Handles rounded corners and clips the zooming image */
   .archive__item-teaser {
     overflow: hidden !important;
-    border-radius: 12px !important; /* Noticeable change to verify it's working */
+    border-radius: 12px !important; 
     display: block !important;
+    position: relative !important;
+    transform: translateZ(0); /* Fixes Safari flicker/aliasing */
+    transition: all 0.3s ease-in-out !important;
+    border: 1px solid #eee !important;
   }
 
-  /* This targets the image itself */
+  /* 2. The Image: Default State */
   .archive__item-teaser img {
-    transition: transform 0.4s ease-in-out !important;
+    /* cubic-bezier makes the zoom feel more "premium" and organic */
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     display: block !important;
     width: 100% !important;
+    height: auto !important;
+    filter: brightness(0.98);
   }
 
-  /* When the publication is hovered, zoom the image */
-  .archive__item:hover img {
-    transform: scale(1.15) !important;
+  /* 3. The Hover Effect: Zoom the image 22% */
+  .archive__item:hover .archive__item-teaser img {
+    transform: scale(1.22) !important; 
+    filter: brightness(1.05);
   }
 
-  /* This adds a shadow to the whole publication block on hover */
-  .archive__item:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
-    transition: all 0.3s ease !important;
+  /* 4. The "Card" Lift: Moves the image box up slightly for 3D effect */
+  .archive__item:hover .archive__item-teaser {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18) !important;
+    transform: translateY(-5px) !important;
+    border-color: #ccc !important;
+  }
+
+  /* Optional: Smoothly underline the title on hover */
+  .archive__item:hover .archive__item-title {
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
   }
 </style>
