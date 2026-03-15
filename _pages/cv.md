@@ -11,35 +11,46 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Mechatronics Engineering**, Jeju National University, South Korea, 2021
+  * *Thesis:* Design and fabrication of soft sensors for wearable electronics and robotics applications.
+* **Master of Engineering (Power Engineering)**, Quaid-e-Awam University of Engineering, Science and Technology, Pakistan, 2018
+* **Bachelor of Engineering (Electrical Engineering)**, Sukkur IBA University, Pakistan, 2014
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Senior Lecturer** | 2024 – Present
+  * Washington University in St. Louis, McKelvey School of Engineering, USA
+  * Teaching Modern Robotics, ROS2 Design, Mechatronics, and Control Systems.
+  * Conducting research in soft robotics and flexible sensors.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Assistant Professor** | 2021 – 2024
+  * Sukkur IBA University, Electrical Engineering Department, Pakistan
+  * Taught Robotics, Swarm & Bio-inspired Robotics, and Biomedical Robotics.
+  * Focused on hardware/software integration and autonomous navigation.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* **Researcher / Instructor** | 2018 – 2021
+  * Jeju National University, South Korea
+  * Developed soft sensors and flexible electronics for wearable applications.
+  * Developed Bio-inspired Soft Robots
+
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Bio-inspired Soft Robotics
+* Flexible and Stretchable Sensors
+* Wearable Electronics for Healthcare
+* Mechatronics & Intelligent Control Systems
+
+Skills & Competences
+======
+* **Programming:** Python, C++, HTML/CSS/JavaScript, MATLAB & Simulink
+* **Robotics & Simulation:** ROS2, CoppeliaSim, Webots, Gazebo, RViz, ARGoS
+* **Design & Modeling:** SOLIDWORKS, AutoCAD, CREO, Blender, COMSOL
+* **Hardware:** National Instruments DAQs, myRIO, Arduino, ESP32, PLC Systems
+
+Honors & Awards
+======
+* **Brain Korea 21 (BK21 Plus) Fellowship**, South Korean Government
+* **Fully Funded Ph.D. Scholarship**, Jeju National University
 
 Publications
 ======
