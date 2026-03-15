@@ -1,11 +1,7 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-
-<!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -14,4 +10,31 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- end custom head snippets -->
+<style>
+  /* Target the container to hide the overflow zoom */
+  .archive__item-teaser {
+    overflow: hidden !important;
+    border-radius: 8px !important;
+    display: block !important;
+    border: none !important; /* Removes that thin grey border if you want a cleaner look */
+  }
+
+  /* Target the image directly */
+  .archive__item-teaser img {
+    transition: transform 0.4s ease-in-out !important;
+    transform: scale(1) !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  /* Trigger zoom when the user hovers over the publication block */
+  .archive__item:hover .archive__item-teaser img {
+    transform: scale(1.15) !important;
+  }
+
+  /* Add a shadow effect to make the 'card' pop */
+  .archive__item:hover .archive__item-teaser {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+  }
+</style>
