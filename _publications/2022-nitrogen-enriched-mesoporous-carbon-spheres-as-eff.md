@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2022-nitrogen-enriched-mesoporous-carbon-spheres-as-eff
 date: 2022-01-01
 venue: "physica status solidi (a)"
-authors: "Ali, Shamshad, Waqas, Muhammad, Thaheem, Imdadullah, Hussain, Ayaz, Soomro, Afaque Manzoor, Bhutto, Zuhaibuddin, Muhammad, Wazir, Shah, Syed Ali Raza, Shah, Jalal"
-paperurl: ""
+authors: "Shamshad Ali, Muhammad Waqas, Imdadullah Thaheem, Ayaz Hussain, Afaque Manzoor Soomro, Zuhaibuddin Bhutto, Wazir Muhammad, Syed Ali Raza Shah, Jalal Shah"
+paperurl: "https://onlinelibrary.wiley.com/doi/10.1002/pssa.202100714"
 teaser: "/images/papers/2022-nitrogen-enriched-mesoporous-carbon-spheres-as-eff.png"
-excerpt: "This research was published in physica status solidi (a) in 2022. (Summary pending update)."
+excerpt: "This study presents nitrogen-doped porous carbon spheres (NPS-XAN) with high nitrogen content (28%) synthesized from xanthan and melamine. These nanospheres exhibit remarkable long-cycle stability, maintaining 390 mAh/g after 1000 cycles for Lithium and 262 mAh/g after 2800 cycles for Sodium anodes, offering a superior pathway for long-life energy storage applications."
 ---
