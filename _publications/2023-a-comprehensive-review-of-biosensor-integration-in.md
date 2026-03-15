@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2023-a-comprehensive-review-of-biosensor-integration-in
 date: 2023-01-01
 venue: "ChemBioEng Reviews"
-authors: "Hussain Memon, Fida, Inseok, Kang, Ahmed, Faheem, Ali, Wajid, Soomro, Afaque Manzoor, Raza Memon, Saleem, Hussain Memon, Kashif, Choi, Kyung Hyun"
-paperurl: ""
+authors: "Fida Hussain Memon, Inseok Kang, Faheem Ahmed, Wajid Ali, Afaque Manzoor Soomro, Saleem Raza Memon, Kashif Hussain Memon, Kyung Hyun Choi"
+paperurl: "https://onlinelibrary.wiley.com/doi/abs/10.1002/cben.202200066"
 teaser: "/images/papers/2023-a-comprehensive-review-of-biosensor-integration-in.png"
-excerpt: "This research was published in ChemBioEng Reviews in 2023. (Summary pending update)."
+excerpt: "This review provides a critical analysis of embedding miniaturized biosensing systems within microphysiological systems (MPS). It highlights the shift from invasive, endpoint characterization to real-time, non-invasive monitoring of biomarkers, addressing the current challenges in fabrication and the future of smart organ-on-a-chip platforms."
 ---
