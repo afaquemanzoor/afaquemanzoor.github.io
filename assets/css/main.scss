@@ -43,26 +43,36 @@
 ;
 
 /* ==========================================================================
-   GLOBAL OVERRIDE: Publication Image Hover Zoom
+   GLOBAL OVERRIDE: Publication Image Hover Zoom (Final Force)
    ========================================================================== */
 
-.archive__item-teaser {
-  overflow: hidden !important;
-  border-radius: 8px !important;
-  
-  img {
-    width: 100% !important;
-    transition: transform 0.4s ease-in-out !important;
-    display: block !important;
+.archive__item {
+  .archive__item-teaser {
+    overflow: hidden !important;
+    border-radius: 8px !important;
+    
+    img {
+      /* This ensures the image is ready to animate even with fixed widths */
+      transition: all 0.4s ease-in-out !important;
+      transform: scale(1) !important;
+      display: block !important;
+      width: 100% !important; 
+    }
   }
 }
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
     
     img {
-      transform: scale(1.12) !important; /* Zooms in 12% */
+      /* This triggers the actual zoom */
+      transform: scale(1.15) !important; 
     }
+  }
+  
+  /* Optional: Underlines the title when the whole box is hovered */
+  .archive__item-title {
+    text-decoration: underline !important;
   }
 }
