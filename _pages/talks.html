@@ -1,8 +1,28 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-##updating...
+{% include base_path %}
+
+<div class="talk-grid">
+{% for post in site.categories.talks %}
+  <div class="talk-card">
+    
+    {% if post.image %}
+    <img src="{{ post.image }}" class="talk-img">
+    {% endif %}
+    
+    <h3>{{ post.title }}</h3>
+    
+    <p>{{ post.excerpt }}</p>
+    
+    <span class="talk-date">
+      {{ post.date | date: "%B %d, %Y" }}
+    </span>
+
+  </div>
+{% endfor %}
+</div>
