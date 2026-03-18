@@ -7,21 +7,32 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="talk-grid">
-{% for post in site.categories.talks %}
-  <div class="talk-card">
+---
+layout: archive
+title: "Talks"
+permalink: /talks/
+author_profile: true
+---
 
-    {% if post.image %}
-    <img src="{{ post.image }}" class="talk-img">
-    {% endif %}
+{% include base_path %}
 
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.excerpt }}</p>
+<div class="talks-wrapper">
+  <div class="talk-grid">
+  {% for post in site.categories.talks %}
+    <div class="talk-card">
 
-    <span class="talk-date">
-      {{ post.date | date: "%B %d, %Y" }}
-    </span>
+      {% if post.image %}
+      <img src="{{ post.image }}" class="talk-img">
+      {% endif %}
 
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt }}</p>
+
+      <span class="talk-date">
+        {{ post.date | date: "%B %d, %Y" }}
+      </span>
+
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
 </div>
