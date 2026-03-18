@@ -1,19 +1,57 @@
-/* ===== CLEAN Talks Design ===== */
+---
+---
 
-/* Wrapper controls width safely (only Talks page) */
+/*
+ * Required Jekyll imports
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+
+/* ===== SAFE Talks Design (Add BELOW imports only) ===== */
+
 .talks-wrapper {
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* Grid */
 .talk-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 25px;
 }
 
-/* Card */
 .talk-card {
   background: #ffffff;
   border-radius: 12px;
@@ -27,19 +65,16 @@
   color: inherit;
 }
 
-/* Hover */
 .talk-card:hover {
   transform: translateY(-6px);
 }
 
-/* Image */
 .talk-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-/* Text */
 .talk-card h3 {
   font-size: 1.1rem;
   margin: 12px 15px 5px;
@@ -51,7 +86,6 @@
   font-size: 0.95rem;
 }
 
-/* Date */
 .talk-date {
   display: block;
   margin: 0 15px 15px;
