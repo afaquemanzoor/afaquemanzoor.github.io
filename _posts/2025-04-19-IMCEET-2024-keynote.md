@@ -1,6 +1,6 @@
 ---
 title: "3rd International Multidisciplinary Conference on Emerging Trends in Engineering Technology"
-date: 2025-04-19
+date: 2024-03-06
 layout: post
 categories: [talks]
 image: /images/talks/benazir_bhutto.jpg
