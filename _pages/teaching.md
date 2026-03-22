@@ -132,7 +132,7 @@ Recognizing that students possess various learning styles and preferences, Dr. M
 
   <div class="timeline-item">
     <div class="institution-name">Jeju National University, South Korea</div>
-    <span class="role-title">Instructor / Researcher | 2016 – 2021</span>
+    <span class="role-title">Instructor / Researcher | 2018 – 2021</span>
     
     <div class="course-card">
       <span class="course-code">Advanced Printed Electronics</span>
