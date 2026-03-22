@@ -3,7 +3,7 @@ title: "Invited Keynote – IMCEET 2025"
 date: 2025-04-19
 layout: post
 categories: [talks]
-image: /images/talks/benazir_bhutto.jpg
+image: /images/talks/conference2025.jpg
 excerpt: "Invited keynote on flexible sensors for wearable and robotics applications at IMCEET 2025."
 ---
 
