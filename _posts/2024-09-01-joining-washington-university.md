@@ -1,6 +1,6 @@
 ---
 title: "Joined Washington University in St. Louis"
-date: 2025-09-01
+date: 2024-09-01
 layout: post
 categories: [talks]
 image: /images/talks/joinedWashU.jpg
